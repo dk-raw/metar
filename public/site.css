@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-family: "B612", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(216, 15%, 13%);
+  text-align: center;
+  color: hsl(0, 0%, 90%);
+}
+
+.navbar-dark.bg-dark {
+  background-color: hsl(216, 15%, 18%) !important;
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.container {
+    margin-top: 8em;
+}
+
+input.form-control {
+    background-color: hsl(216, 15%, 13%) !important;
+    color: hsl(0, 0%, 90%) !important;
+}
+
+input.form-control:active,
+input.form-control:focus {
+  box-shadow: 0 0 0 0.25rem hsla(0, 0%, 90%, 0.7) !important;
+  border-color: hsla(0, 0%, 90%, 0.7) !important;
+}
